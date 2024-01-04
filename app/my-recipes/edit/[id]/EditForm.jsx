@@ -52,7 +52,7 @@ const EditForm = ({ recipe, id }) => {
               type="text"
               name="label"
               id="label"
-              placeholder="Fillet mignon"
+              placeholder="Rice & Chicken"
               value={label}
               onChange={(e) => setLabel(e.target.value)}
             />

@@ -37,7 +37,7 @@ const AdminPage = () => {
   return (
     <section className="py-16">
       <div className="container mx-auto px-6">
-        <h1 className="text-4xl font-bold mb-6">My recipes</h1>
+        <h1 className="text-4xl font-bold mb-6">My Recipes</h1>
         <div className="flex gap-4 flex-col mb-6">
           {recipesData === null
             ? "Loading recipes..."
