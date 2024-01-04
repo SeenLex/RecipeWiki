@@ -26,7 +26,7 @@ export const Navbar = ({ callBack }) => {
         </Link>
         {user && (
           <Link href="/my-recipes" className="hover:text-orange-400">
-            My recipes
+            My Recipes
           </Link>
         )}
         {user && (
