@@ -2,9 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import logo from "../../assets/navbarlogo.png";
-import { Searchbar } from "../searchbar/Searchbar";
 import Image from "next/image";
-import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { auth } from "@/app/firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import Link from "next/link";

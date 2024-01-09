@@ -1,7 +1,5 @@
 import React from "react";
 import { MyFavourites } from "../my-favourites/MyFavourites";
-import { Filter } from "../filter/Filter";
-import { getAuth } from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "@/app/firebase";
 

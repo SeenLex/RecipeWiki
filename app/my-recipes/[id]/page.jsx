@@ -10,7 +10,6 @@ const MyRecipe = async ({ params }) => {
   if (recipeSnap.exists()) {
     console.log("Document data:", recipeSnap.data());
   } else {
-    // doc.data() will be undefined in this case
     console.log("No such document!");
     return <div></div>;
   }

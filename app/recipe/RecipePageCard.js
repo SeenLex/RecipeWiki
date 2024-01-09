@@ -4,7 +4,6 @@ import {
   IconToolsKitchen2,
   IconWeight,
 } from "@tabler/icons-react";
-import Image from "next/image";
 import React from "react";
 
 export const RecipePageCard = ({ recipeInfo }) => {

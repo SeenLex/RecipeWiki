@@ -7,7 +7,6 @@ import {
 } from "@/app/components/filter/Filter";
 import { db } from "@/app/firebase";
 import { doc, getDoc, updateDoc } from "firebase/firestore";
-import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
 
 const EditForm = ({ recipe, id }) => {
@@ -34,7 +33,6 @@ const EditForm = ({ recipe, id }) => {
     };
     const thisDocRef = doc(db, "recipes", id);
     await updateDoc(thisDocRef, recipe);
-    // go to my-recipes with window location
     window.location.href = "/my-recipes";
   };
 

@@ -13,11 +13,9 @@ export const Cards = () => {
   const [search, setSearch] = useState("");
   const [user, loading, error] = useAuthState(auth);
 
-  // Filters
   const [mealType, setMealType] = useState("");
   const [dishType, setDishType] = useState("");
   const [cuisineType, setCuisineType] = useState("");
-  //
 
   const searchRecipes = async () => {
     const searchParams = {

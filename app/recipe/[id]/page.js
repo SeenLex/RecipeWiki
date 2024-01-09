@@ -1,5 +1,4 @@
 "use client";
-import Card from "@/app/components/cards/Card";
 import React, { useEffect, useState } from "react";
 import RecipePageCard from "../RecipePageCard";
 
@@ -31,7 +30,7 @@ const RecipePage = ({ params }) => {
     };
     getRecipe();
   }, []);
-  return <div>{recipe && <RecipePageCard recipeInfo={recipe} />}</div>; // FOLOSESTI ALTA COMPONENTA
+  return <div>{recipe && <RecipePageCard recipeInfo={recipe} />}</div>;
 };
 
 export default RecipePage;

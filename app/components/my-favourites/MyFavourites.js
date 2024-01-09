@@ -1,4 +1,3 @@
-import { CollectionReference } from "firebase/firestore";
 import React from "react";
 
 export const MyFavourites = () => {
